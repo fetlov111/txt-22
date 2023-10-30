@@ -129,11 +129,11 @@ public class Figure
             Console.WriteLine("Название: " + Name);
             Console.WriteLine("Ширина: " + Width);
             Console.WriteLine("Высота: " + Height);
-            Console.WriteLine("F1 - Сохранить, Esc - Выйти");
+            Console.WriteLine("F5 - Сохранить, Escape - Выйти");
 
             key = Console.ReadKey();
 
-            if (key.Key == ConsoleKey.F1)
+            if (key.Key == ConsoleKey.F5)
             {
                 Console.Write("Введите путь для сохранения файла: ");
                 string filePath = Console.ReadLine();
